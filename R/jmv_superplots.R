@@ -24,8 +24,7 @@
 #'                    replicate = 3)
 #'
 #' df <- do.call(rbind, list(df_1, df_2, df_3))
-#' jmv_superplots(df, groups = "group", replicate = "replicate", value = "value")
-
+#' jmv_superplots(df, groups = group, replicate = replicate, value = value)
 
 
 jmv_superplots <- function(df, groups, replicate, value, font_size=20, ylab="") {
@@ -34,9 +33,9 @@ jmv_superplots <- function(df, groups, replicate, value, font_size=20, ylab="") 
         dplyr::group_by({{ groups }}, {{ replicate }}) |>
         dplyr::summarise_if(is.numeric, list(mean))
 
-    ggplot(df, aes(x= {{ groups }}, y= {{ value }}, color=factor({{ replicate }}))) +
-        ggbeeswarm::geom_quasirandom(width=0.2, cex=2, alpha=0.2) +
-        ggbeeswarm::geom_beeswarm(data=ReplicateAverages, size=4, color="white", pch=21, aes(fill=factor(ReplicateAverages[{{ replicate }}]))) +
+    ggplot(df, aes(x= {{ groups }}, y= {{ value }})) +
+        ggbeeswarm::geom_quasirandom(aes(color=factor({{ replicate }})), width=0.2, cex=2, alpha=0.2) +
+        ggbeeswarm::geom_beeswarm(data=ReplicateAverages, size=4, color="white", pch=21, aes(fill=factor({{ replicate }}))) +
         ggplot2::scale_colour_brewer(palette = "Set1", aesthetics = c("color", "fill")) +
         xlab("") +
         ylab(ylab) +
@@ -44,4 +43,5 @@ jmv_superplots <- function(df, groups, replicate, value, font_size=20, ylab="") 
         ggpubr::rotate_x_text(angle=45) +
         ggplot2::theme(legend.position="none")
 }
+
 

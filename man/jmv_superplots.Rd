@@ -38,5 +38,5 @@ df_3 <- data.frame(value = sample(100:200, 100, replace=TRUE),
                    replicate = 3)
 
 df <- do.call(rbind, list(df_1, df_2, df_3))
-jmv_superplots(df, groups = "group", replicate = "replicate", value = "value")
+jmv_superplots(df, groups = group, replicate = replicate, value = value)
 }

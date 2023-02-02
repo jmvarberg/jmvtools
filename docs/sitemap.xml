@@ -1,27 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/404.html</loc>
+    <loc>https://jmvarberg.github.io/jmvtools/404.html</loc>
   </url>
   <url>
-    <loc>/LICENSE-text.html</loc>
+    <loc>https://jmvarberg.github.io/jmvtools/LICENSE-text.html</loc>
   </url>
   <url>
-    <loc>/LICENSE.html</loc>
+    <loc>https://jmvarberg.github.io/jmvtools/LICENSE.html</loc>
   </url>
   <url>
-    <loc>/authors.html</loc>
+    <loc>https://jmvarberg.github.io/jmvtools/authors.html</loc>
   </url>
   <url>
-    <loc>/index.html</loc>
+    <loc>https://jmvarberg.github.io/jmvtools/index.html</loc>
   </url>
   <url>
-    <loc>/reference/index.html</loc>
+    <loc>https://jmvarberg.github.io/jmvtools/reference/index.html</loc>
   </url>
   <url>
-    <loc>/reference/jmv_datatables.html</loc>
+    <loc>https://jmvarberg.github.io/jmvtools/reference/jmv_datatables.html</loc>
   </url>
   <url>
-    <loc>/reference/jmv_plotly_linked.html</loc>
+    <loc>https://jmvarberg.github.io/jmvtools/reference/jmv_plotly_linked.html</loc>
+  </url>
+  <url>
+    <loc>https://jmvarberg.github.io/jmvtools/reference/jmv_superplots.html</loc>
   </url>
 </urlset>
