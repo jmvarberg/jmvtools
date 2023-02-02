@@ -11,7 +11,7 @@
 #'
 #' jmv_datatables(mtcars)
 #'
-#' mtcars |> jmv_datatables()
+#'
 #'
 jmv_datatables <- function(df, digits=2, ...) {
 

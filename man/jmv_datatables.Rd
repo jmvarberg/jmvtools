@@ -23,6 +23,6 @@ Interactive data tables
 
 jmv_datatables(mtcars)
 
-mtcars |> jmv_datatables()
+
 
 }
