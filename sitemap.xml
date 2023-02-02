@@ -16,6 +16,9 @@
     <loc>https://jmvarberg.github.io/jmvtools/index.html</loc>
   </url>
   <url>
+    <loc>https://jmvarberg.github.io/jmvtools/reference/ggrotate_xy.html</loc>
+  </url>
+  <url>
     <loc>https://jmvarberg.github.io/jmvtools/reference/index.html</loc>
   </url>
   <url>
@@ -26,5 +29,8 @@
   </url>
   <url>
     <loc>https://jmvarberg.github.io/jmvtools/reference/jmv_superplots.html</loc>
+  </url>
+  <url>
+    <loc>https://jmvarberg.github.io/jmvtools/reference/named_group_split.html</loc>
   </url>
 </urlset>
