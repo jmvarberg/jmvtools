@@ -20,3 +20,4 @@ Imports:
     plotly,
     tibble,
     tidyselect
+URL: https://jmvarberg.github.io/jmvtools/
