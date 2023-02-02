@@ -2,3 +2,8 @@
 
 export(jmv_datatables)
 export(jmv_plotly_linked)
+export(jmv_superplots)
+importFrom(ggplot2,aes)
+importFrom(ggplot2,ggplot)
+importFrom(ggplot2,xlab)
+importFrom(ggplot2,ylab)

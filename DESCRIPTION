@@ -13,9 +13,12 @@ Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
 Imports: 
+    cowplot,
     dplyr,
     DT,
+    ggbeeswarm,
     ggplot2,
+    ggpubr,
     htmlwidgets,
     plotly,
     tibble,
