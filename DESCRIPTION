@@ -20,7 +20,9 @@ Imports:
     ggplot2,
     ggpubr,
     htmlwidgets,
+    patchwork,
     plotly,
+    rlang,
     tibble,
     tidyselect
 URL: https://jmvarberg.github.io/jmvtools/

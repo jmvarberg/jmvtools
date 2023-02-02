@@ -1,4 +1,22 @@
+title: jmvtools
 url: https://jmvarberg.github.io/jmvtools/
 template:
   bootstrap: 5
+
+reference:
+- title: Plotting Functions
+  desc:  Functions to generate specific types of plots.
+  contents:
+  - jmv_plotly_linked
+  - jmv_superplots
+
+- title: Data Manipulation Functions
+  desc:  Helper functions for data manipulation and tidying.
+  contents:
+  - named_group_split
+  - ggrotate_xy
+
+- title: Miscellaneous Functions
+  contents:
+  - jmv_datatables
 
