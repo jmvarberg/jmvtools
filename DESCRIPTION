@@ -16,6 +16,7 @@ Imports:
     cowplot,
     dplyr,
     DT,
+    gganimate,
     ggbeeswarm,
     ggplot2,
     ggpubr,
@@ -24,6 +25,7 @@ Imports:
     patchwork,
     plotly,
     rlang,
+    Seurat,
     tibble,
     tidyselect
 URL: https://jmvarberg.github.io/jmvtools/

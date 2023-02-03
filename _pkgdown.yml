@@ -20,3 +20,7 @@ reference:
   contents:
   - jmv_datatables
 
+- title: Single Cell/Spatial Functions
+  contents:
+  - jmv_spatial_umap_animation
+
