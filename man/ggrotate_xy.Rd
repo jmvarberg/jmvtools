@@ -24,3 +24,19 @@ Rotate a 2D plot by specified number of degrees
 \note{
 Mostly using this to rotate plots from Slide-seq spatial transcriptomics data for figure prep.
 }
+\examples{
+library(jmvtools)
+jmvtools:::spatial_data |>
+    ggplot2::ggplot(ggplot2::aes(x, y, color=factor(cluster))) +
+    ggplot2::geom_point() +
+    ggplot2::theme_void() +
+    ggsci::scale_color_igv()
+
+jmvtools:::spatial_data |>
+    ggrotate_xy(x, y, deg=90) |>
+    ggplot2::ggplot(ggplot2::aes(x, y, color=factor(cluster))) +
+    ggplot2::geom_point() +
+    ggplot2::theme_void() +
+    ggsci::scale_color_igv()
+
+}
