@@ -2,6 +2,7 @@
 
 export(ggrotate_xy)
 export(jmv_datatables)
+export(jmv_mixedLengthDF)
 export(jmv_plotly_linked)
 export(jmv_spatial_umap_animation)
 export(jmv_superplots)
