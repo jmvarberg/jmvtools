@@ -1,0 +1,76 @@
+---
+title: "Analysis Report"
+author: "JM Varberg"
+output:
+    html_document:
+        code_folding: "hide"
+        toc: true
+        toc_depth: 5
+        toc_float: true
+        fig_width: 10
+        fig_height: 8
+        df_print: kable
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warnings=FALSE, message=FALSE)
+```
+
+# Load Packages
+
+```{r}
+library(tidyverse)
+library(data.table)
+library(ggsci)
+library(ggrepel)
+library(cowplot)
+library(ggforce)
+library(jmvtools)
+library(xfun)
+#remotes::install_github('yihui/xfun')
+# embed_file() requires a few more packages
+xfun::pkg_load2(c('htmltools', 'mime'))
+```
+
+# Background and Objectives
+
+
+
+# Data Input
+
+
+
+
+# Data Cleaning
+
+
+
+
+# Visualizations
+
+
+
+
+
+# Embedded Results Files
+
+```{r}
+xfun::embed_file("path_to_single_file")
+
+#embed multiple files
+file_list <- list.files("path", pattern = ".csv", full.names = TRUE)
+xfun::embed_files(file_list)
+
+#embed whole directory
+xfun::embed_dir("path_to_directory")
+```
+
+
+
+
+# Session Info
+
+```{r}
+session_info()
+```
+
