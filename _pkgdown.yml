@@ -24,4 +24,5 @@ reference:
 - title: Single Cell/Spatial Functions
   contents:
   - jmv_spatial_umap_animation
+  - swap_ensmbl_for_names
 
