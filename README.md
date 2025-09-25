@@ -12,7 +12,7 @@ status](https://www.r-pkg.org/badges/version/jmvtools)](https://CRAN.R-project.o
 <!-- badges: end -->
 
 This is a collection of functions and wrappers customized for data
-analysis, plotting and formatting for interactive reports.
+analysis, plotting and formatting for interactive reporting.
 
 ## Installation
 
